@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "dev-code-impact-analyzer"
+version = "0.1.0"
+description = "A CLI tool that analyzes code changes to identify affected modules, dependencies, and relevant test suites for faster refactoring and safer deployments."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["python", "click", "ast", "networkx", "gitpython"]
+dependencies = ["networkx"]
+
+[project.urls]
+Homepage = "https://github.com/{GITHUB_USERNAME}/dev-code-impact-analyzer"
